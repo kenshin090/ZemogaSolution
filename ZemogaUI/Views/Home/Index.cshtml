@@ -1,0 +1,45 @@
+﻿@model List<Common.Entities.Post>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+<div>
+    <div class="container">
+        @foreach (var item in Model)
+        {
+            <div class="PostItem">
+                <div class="PostSection">
+                    <div class="PostTitle">
+                        <h3>@item.Title</h3>
+                    </div>
+                    <div class="PostText">
+                        <p>@item.Text</p>
+                    </div>
+                    <div class="postFooter">
+                        <div>Created: @item.CreatedDate</div>
+                        <div>Last update: @item.UpdatedDate</div>
+                    </div>
+                </div>
+                @if (item.Comments != null && item.Comments.Any())
+                {
+                    <div class="CommentsSection">
+                        @foreach (var comment in item.Comments)
+                        {
+                            <div class="CommentItem">
+                                <div class="authorComment"> @comment.Author say:</div>
+                                <div class="Comment"> @comment.CommentText</div>
+                                <div class="CommentDate">@comment.CreatedDate</div>
+                            </div>
+                        }
+                    </div>
+                }
+
+                @Html.Partial("NewComment", new Common.Entities.Comment() { PostId = item.Id })
+            </div>
+        }
+    </div>
+</div>

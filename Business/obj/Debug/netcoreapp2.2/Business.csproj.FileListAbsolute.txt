@@ -1,0 +1,14 @@
+C:\Users\SX332BS\source\repos\ZemogaTest\Business\bin\Debug\netcoreapp2.2\Business.deps.json
+C:\Users\SX332BS\source\repos\ZemogaTest\Business\bin\Debug\netcoreapp2.2\Business.dll
+C:\Users\SX332BS\source\repos\ZemogaTest\Business\bin\Debug\netcoreapp2.2\Business.pdb
+C:\Users\SX332BS\source\repos\ZemogaTest\Business\bin\Debug\netcoreapp2.2\Common.dll
+C:\Users\SX332BS\source\repos\ZemogaTest\Business\bin\Debug\netcoreapp2.2\Common.pdb
+C:\Users\SX332BS\source\repos\ZemogaTest\Business\obj\Debug\netcoreapp2.2\Business.csprojAssemblyReference.cache
+C:\Users\SX332BS\source\repos\ZemogaTest\Business\obj\Debug\netcoreapp2.2\Business.csproj.CoreCompileInputs.cache
+C:\Users\SX332BS\source\repos\ZemogaTest\Business\obj\Debug\netcoreapp2.2\Business.AssemblyInfoInputs.cache
+C:\Users\SX332BS\source\repos\ZemogaTest\Business\obj\Debug\netcoreapp2.2\Business.AssemblyInfo.cs
+C:\Users\SX332BS\source\repos\ZemogaTest\Business\obj\Debug\netcoreapp2.2\Business.csproj.CopyComplete
+C:\Users\SX332BS\source\repos\ZemogaTest\Business\obj\Debug\netcoreapp2.2\Business.dll
+C:\Users\SX332BS\source\repos\ZemogaTest\Business\obj\Debug\netcoreapp2.2\Business.pdb
+C:\Users\SX332BS\source\repos\ZemogaTest\Business\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\SX332BS\source\repos\ZemogaTest\Business\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.xml

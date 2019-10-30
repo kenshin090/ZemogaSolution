@@ -1,0 +1,31 @@
+﻿@model Common.Entities.Post
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+@using (Html.BeginForm())
+{
+<fieldset>
+    <legend>
+        New Post
+    </legend>
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Title)
+    </div>
+    <div class="editor-label">
+        @Html.TextBoxFor(model => model.Title)
+    </div>
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Text)
+    </div>
+    <div class="editor-label">
+        @Html.TextBoxFor(model => model.Text)
+    </div>
+    <div>
+        <input type="submit" name="editPost" value="Edit post" />
+    </div>
+</fieldset>
+}

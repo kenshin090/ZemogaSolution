@@ -1,0 +1,34 @@
+﻿@model List<Common.Entities.Post>
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<table>
+    <thead>
+        <tr>
+            <td>Title</td>
+            <td>Text</td>
+            <td></td>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+<tr>
+    <td> @item.Title</td>
+    <td>@item.Text</td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", "Home", new { id = item.Id })
+        |
+        @Html.ActionLink("Delete", "Delete", "Home", new { id = item.Id })
+    </td>
+    @if (User.IsInRole("editor"))
+    {
+    <td> @Html.ActionLink("Publish", "Publish", "Home", new { id = item.Id })</td>
+    }
+    
+</tr>
+
+    }
+</table>

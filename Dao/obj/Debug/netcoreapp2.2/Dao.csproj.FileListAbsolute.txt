@@ -1,0 +1,16 @@
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\bin\Debug\netcoreapp2.2\Dao.deps.json
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\bin\Debug\netcoreapp2.2\Dao.runtimeconfig.json
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\bin\Debug\netcoreapp2.2\Dao.runtimeconfig.dev.json
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\bin\Debug\netcoreapp2.2\Dao.dll
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\bin\Debug\netcoreapp2.2\Dao.pdb
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\bin\Debug\netcoreapp2.2\Common.dll
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\bin\Debug\netcoreapp2.2\Common.pdb
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\obj\Debug\netcoreapp2.2\Dao.csprojAssemblyReference.cache
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\obj\Debug\netcoreapp2.2\Dao.csproj.CoreCompileInputs.cache
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\obj\Debug\netcoreapp2.2\Dao.AssemblyInfoInputs.cache
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\obj\Debug\netcoreapp2.2\Dao.AssemblyInfo.cs
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\obj\Debug\netcoreapp2.2\Dao.csproj.CopyComplete
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\obj\Debug\netcoreapp2.2\Dao.dll
+C:\Users\SX332BS\source\repos\ZemogaTest\Dao\obj\Debug\netcoreapp2.2\Dao.pdb

@@ -1,0 +1,21 @@
+﻿@model List<Common.Entities.ApplicationUser>
+
+<table>
+    <thead>
+        <tr>
+            <td> Name</td>
+            <td> Email</td>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.UserName</td>
+            <td>@item.Email</td>
+
+            <td>  @Html.ActionLink("Assing Writer", "AssignWriter", "Users", item) </td>
+            <td>  @Html.ActionLink("Assing Editorr", "AssignEditor", "Users", item) </td>
+            }
+        </tr>
+    }
+</table>

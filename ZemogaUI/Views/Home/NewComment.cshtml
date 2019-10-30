@@ -1,0 +1,13 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+
+*@
+
+@model Common.Entities.Comment
+
+@using (Html.BeginForm("Create", "Comment", FormMethod.Post))
+{
+    <span>Enter your comment:</span> @Html.TextBoxFor(m => m.CommentText)<br />
+   @Html.TextBoxFor(m => m.PostId, new { style = "display: none;" })<br />
+    <input id="Submit" type="submit" value="submit" />
+}

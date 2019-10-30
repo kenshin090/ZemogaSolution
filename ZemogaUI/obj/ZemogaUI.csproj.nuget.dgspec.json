@@ -1,0 +1,260 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\ZemogaUI\\ZemogaUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Business\\Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\SX332BS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SX332BS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\SX332BS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SX332BS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Dao\\Dao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Dao\\Dao.csproj",
+        "projectName": "Dao",
+        "projectPath": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Dao\\Dao.csproj",
+        "packagesPath": "C:\\Users\\SX332BS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Dao\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SX332BS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\ZemogaUI\\ZemogaUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\ZemogaUI\\ZemogaUI.csproj",
+        "projectName": "ZemogaUI",
+        "projectPath": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\ZemogaUI\\ZemogaUI.csproj",
+        "packagesPath": "C:\\Users\\SX332BS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\ZemogaUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SX332BS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Business\\Business.csproj"
+              },
+              "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Dao\\Dao.csproj": {
+                "projectPath": "C:\\Users\\SX332BS\\source\\repos\\ZemogaTest\\Dao\\Dao.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
